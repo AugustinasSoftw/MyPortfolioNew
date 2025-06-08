@@ -23,22 +23,6 @@ export default function Body() {
         </div>
       </div>
 
-      <div className="relative bg-[url('/grid_background.png')] bg-center bg-repeat rounded-xl overflow-hidden">
-        {/* Content */}
-
-        {/* Top fade */}
-        <div className="absolute top-0 left-0 w-full h-16 bg-gradient-to-b from-black to-transparent pointer-events-none" />
-
-        {/* Bottom fade */}
-        <div className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-black to-transparent pointer-events-none" />
-
-        {/* Left fade */}
-        <div className="absolute top-0 left-0 h-full w-16 bg-gradient-to-r from-black to-transparent pointer-events-none" />
-
-        {/* Right fade */}
-        <div className="absolute top-0 right-0 h-full w-16 bg-gradient-to-l from-black to-transparent pointer-events-none" />
-      </div>
-
       <CurrentTechnologies />
       <div className="bg-black">
         <MyPortfolio />

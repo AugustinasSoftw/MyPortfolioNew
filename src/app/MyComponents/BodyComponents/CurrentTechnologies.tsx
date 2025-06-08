@@ -9,7 +9,7 @@ const stack = [
   { icon: "/icons/react.png", title: "React", subtitle: "JavaScript Library" },
   { icon: "/icons/next.jpg", title: "NextJS", subtitle: "React framework" },
   { icon: "/icons/tailwind.png", title: "Tailwind", subtitle: "CSS framework" },
-  { icon: "/icons/git.png", title: "Git", subtitle: "Version control" },
+  { icon: "/icons/Git.png", title: "Git", subtitle: "Version control" },
   { icon: "/icons/supabase.png", title: "Supabase", subtitle: "Backend tool" },
 ];
 
