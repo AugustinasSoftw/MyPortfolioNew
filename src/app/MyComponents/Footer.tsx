@@ -11,12 +11,12 @@ const Footer = () => {
         <div className="space-y-8 p-10">
           <h1 className="text-5xl font-bold max-w-2xl leading-[110%] relative z-10">
             Reach out{" "}
-            <Link
-              href="augustinaslicys@gmail.com"
+            <a
+              href="mailto:augustinaslicys@gmail.com"
               className="text-primary hover:text-primary/80 border-b-2 border-primary hover:border-primary/80 transition-colors duration-200"
             >
               via email
-            </Link>{" "}
+            </a>{" "}
           </h1>
         </div>
 
